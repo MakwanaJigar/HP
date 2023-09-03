@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgba(241, 244, 246, 0.86),rgb(228, 175, 246) , rgb(255, 255, 255)  );
+}
+/*.................... NAVBAR.................... */
+#resume{
+    background-image: linear-gradient(to right, rgba(156, 20, 235, 0.86), rgb(241, 63, 233)  );
+    border-radius: 20px;
+    width:auto;
+    box-shadow:3px 2px 2px  rgb(162, 160, 160) ;
+    font-display: initial;
+}
+#resume:hover{
+    color: aliceblue;
+}
+.navbar-brand{
+    /* font-family: 'Black Ops One', cursive;
+ */
+    font-family: 'Press Start 2P', cursive;
+/* 
+    font-family: 'Shadows Into Light', cursive;
+
+    font-family: 'Source Code Pro', monospace; */
+}
+
+/* .....................HOME..................... */
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    font-family: 'Shadows Into Light', cursive;
+}
+.img{
+    mix-blend-mode: multiply;
+    width: 50vw;
+    height: 50vh;
+    border: none;
+}
+.socialmedia{
+    margin-top:5vh ;
+}
+.btn{
+    width: 5vw;
+    height: 5vh;
+}
+.btn:hover{
+    /* background-color: rgb(199, 17, 63); */
+    box-shadow: 10px 5px 5px ;
+    /* opacity: 0.33; */
+}
+/* ................ABOUT................... */
+.abtcard{
+    mix-blend-mode: multiply;
+    width: 80vw;
+    height: auto;
+    border-radius: 10px;
+    margin: 10%;
+    animation: 3s linear 1s infinite running slidein;
+}
+
+
+/* ...................PROJECT.................. */
+
+.card{
+    /* mix-blend-mode: multiply; */
+    width: auto;
+    height: auto;
+}
+.card-img{
+    width: 20vw;
+    height: 20vh;
+}
+
+
+/* ...................CONTACT .................... */
+/* #message:hover{
+    background-color: aliceblue;
+    box-shadow: 2px 2px;
+    width: 8vw;
+} */
